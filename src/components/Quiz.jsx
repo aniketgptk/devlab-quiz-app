@@ -12,7 +12,7 @@ const Quiz = () => {
 
     // Fetch questions from API
     const fetchQuestions = async () => {
-        const response = await axios.get(`https://quizapi.io/api/v1/questions?apiKey=3LbxpDvqfanW3VqeMQFYYotSOd2IRtM2CqejYECW&limit=10&category=code`)
+        const response = await axios.get(`https://api.jsonserve.com/Uw5CrX`)
         setQuestions(response.data)
     }
 
